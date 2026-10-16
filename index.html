@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Séries</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1> Catálogo de Séries Animadas e Live-Actions</h1>
+    </header>
+
+    <main>
+        <!-- Controles e Filtros -->
+        <section class="controls">
+            <button id="btn-carregar">Carregar Séries</button>
+            
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Digitar parte do título..." disabled>
+                
+                <select id="filter-genero" disabled>
+                    <option value="">Todos os Gêneros</option>
+                    <option value="Ficção">Ficção</option>
+                    <option value="Drama">Drama</option>
+                    <option value="Comédia">Comédia</option>
+                    <option value="Fantasia">Fantasia</option>
+                </select>
+
+                <select id="filter-ano" disabled>
+                    <option value="">Todos os Anos</option>
+                    <!-- Os anos serão preenchidos dinamicamente via JS se desejar, ou fixos -->
+                    <option value="1994">1994</option>
+                    <option value="2005">2005</option>
+                    <option value="2008">2008</option>
+                    <option value="2011">2011</option> 
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                </select>
+
+                <button id="btn-ordenar" disabled>Ordenar por Ano (Antiga para Recente)</button>
+            </div>
+        </section>
+
+        <!-- Área de Exibição dos Resultados -->
+        <section id="catalog" class="catalog-grid"></section>
+
+        <!-- Estatísticas no final da página -->
+        <footer id="estatisticas" class="stats-container hidden">
+            <h3>Estatísticas do Catálogo</h3>
+            <p>Total de séries cadastradas: <span id="stat-total">0</span></p>
+            <p>Série mais antiga: <span id="stat-antiga">-</span></p>
+            <p>Série mais recente: <span id="stat-recente">-</span></p>
+        </footer>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

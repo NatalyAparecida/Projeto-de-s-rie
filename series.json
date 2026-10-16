@@ -1,0 +1,60 @@
+{
+  "series": [
+    {
+      "titulo": "Stranger Things",
+      "ano": 2016,
+      "genero": "Ficção",
+      "temporadas": 4,
+      "imagem": "img/stranger.jpg" 
+    },
+    {
+      "titulo": "Breaking Bad",
+      "ano": 2008,
+      "genero": "Drama",
+      "temporadas": 5,
+      "imagem": "img/breaking.jpg"
+    },
+    {
+      "titulo": "Dark",
+      "ano": 2017,
+      "genero": "Ficção",
+      "temporadas": 3,
+      "imagem": "img/dark.jpg"
+    },
+    {
+      "titulo": "The Crown",
+      "ano": 2016,
+      "genero": "Drama",
+      "temporadas": 6,
+      "imagem": "img/thecrown.jpg"
+    },
+    {
+      "titulo": "Friends",
+      "ano": 1994,
+      "genero": "Comédia",
+      "temporadas": 10,
+      "imagem": "img/friends.jpg"
+    },
+    {
+      "titulo": "The Office",
+      "ano": 2005,
+      "genero": "Comédia",
+      "temporadas": 9,
+      "imagem": "img/office.jpg"
+    },
+    {
+      "titulo": "Black Mirror",
+      "ano": 2011,
+      "genero": "Ficção",
+      "temporadas": 6,
+      "imagem": "img/mirror.jpg"
+    },
+    {
+      "titulo": "Game of Thrones",
+      "ano": 2011,
+      "genero": "Fantasia",
+      "temporadas": 8,
+      "imagem": "img/thrones.jpg"
+    }
+  ]
+}
